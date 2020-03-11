@@ -1,0 +1,17 @@
+# One of 'error', 'warn', 'info', 'verbose', debug', 'silly'
+loglevel: 'silly'
+# Configuration passed to the mongo library
+mongodb:
+  hostname: '192.168.1.10'
+  port: 27017
+  database: 'mqtt2mongo'
+  collection: 'message'
+mqtt:
+  # URL to MQTT broker
+  url: 'mqtt://192.168.1.10'
+  # Configuration passed to the MQTT library
+  options:
+    username: 'mqtt_username'
+    password: 'mqtt_password'
+topics:
+  - "#"

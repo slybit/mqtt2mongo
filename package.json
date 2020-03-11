@@ -1,0 +1,25 @@
+{
+  "name": "mqtt2mongo",
+  "version": "0.0.1",
+  "description": "Sends MQTT messages to a Mongo DB.",
+  "main": "mqtt2mongo.js",
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "mongodb": "^3.5.5",
+    "mqtt": "^3.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node mqtt2mongo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [
+    "MQTT",
+    "MongoDB"
+  ],
+  "author": "Stefaan Seys",
+  "license": "ISC",
+  "homepage": ""
+}
